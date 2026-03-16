@@ -4,25 +4,25 @@ class Fpv < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/digicrafts/fpv/releases/download/v0.1.10/fpv-v0.1.10-aarch64-apple-darwin.tar.gz"
-      sha256 "a11750dc5997bdd17f6345b75e8bf7e6225c5ca30c8707294ca527f08bf06eaf"
+      url "https://github.com/digicrafts/fpv/releases/download/v0.1.11/fpv-v0.1.11-aarch64-apple-darwin.tar.gz"
+      sha256 "9fc260730e1493a82f0293948a8ba650b388ae812d0d36d07ef0b035613810a6"
     end
 
     on_intel do
-      url "https://github.com/digicrafts/fpv/releases/download/v0.1.10/fpv-v0.1.10-x86_64-apple-darwin.tar.gz"
-      sha256 "6a58771abbb4ae7ca5ddd54caa80d4d304ac06bd35b08272e253af74cb94cda7"
+      url "https://github.com/digicrafts/fpv/releases/download/v0.1.11/fpv-v0.1.11-x86_64-apple-darwin.tar.gz"
+      sha256 "dadac1ddc1fbe303e90586fced0f144d71962496a1bf323c7f7b307c5325f435"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/digicrafts/fpv/releases/download/v0.1.10/fpv-v0.1.10-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "180fcd7f65aff87be8ef8aa9a055c95ec1d1cc69eef55a049b180491022c7fcd"
+      url "https://github.com/digicrafts/fpv/releases/download/v0.1.11/fpv-v0.1.11-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d80ea64d73aad5899401af493faec28c80e700f73f73a65493a276ac31bbdb95"
     end
 
     on_intel do
-      url "https://github.com/digicrafts/fpv/releases/download/v0.1.10/fpv-v0.1.10-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5cb8d4c828f1afa41f681928fb2b36d73da91318cad284bfa154776237a944ba"
+      url "https://github.com/digicrafts/fpv/releases/download/v0.1.11/fpv-v0.1.11-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a897b02b5c4af7bb271f9bca431d8e8962547d88482833aa737f8b606fdb9fb7"
     end
   end
 
